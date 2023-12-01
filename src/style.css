@@ -1,0 +1,13 @@
+.imagemAleatoria {
+    width: 513px;
+    height: 342px;
+    background-image: url('https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+p {
+    position: absolute;
+    display: none;
+}
