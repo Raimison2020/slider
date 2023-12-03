@@ -2,7 +2,7 @@ function mover(elemento, inicio, fim, passo, callback) {
     const novoInicio = inicio - passo
     if(novoInicio >= fim) {
         elemento.style.left = novoInicio + 'px'
-        setTimeout( () => mover(elemento, novoInicio, fim, passo, callback), 7 )
+        setTimeout( () => mover(elemento, novoInicio, fim, passo, callback), 10 )
     } else {
         callback()
     }
